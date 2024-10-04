@@ -22,10 +22,10 @@ publishing {
         }
     }
 
-    repositories {
-        maven {
-            // You can publish to the local repo for testing first
-            url = uri("${layout.buildDirectory}/repo")
-        }
-    }
+//    repositories {
+//        maven {
+//            // You can publish to the local repo for testing first
+//            url = uri("${layout.buildDirectory}/repo")
+//        }
+//    }
 }
